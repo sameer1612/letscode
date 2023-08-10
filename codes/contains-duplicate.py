@@ -11,3 +11,6 @@ class Solution:
                 return True
             iterated.add(n)
         return False
+
+
+print(Solution.containsDuplicate([1, 2, 1]))  # True
