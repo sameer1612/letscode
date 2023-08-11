@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'set'
-
 # @param {Integer[]} nums
 # @return {Boolean}
 def contains_duplicate(nums)
