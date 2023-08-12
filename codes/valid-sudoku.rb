@@ -1,0 +1,42 @@
+# frozen_string_literal: true
+
+# @param {Character[][]} board
+# @return {Boolean}
+def is_valid_sudoku(board)
+  transposed_board = board.transpose
+  i = 0
+  j = 0
+
+  9.times { |i| return false unless uniq_nums?(board[i]) && uniq_nums?(transposed_board[i]) }
+
+  while i < 9
+    while j < 9
+      values = [(0..2).map { |x| (0..2).map { |y| board[i + x][j + y] } }].flatten
+      return false unless uniq_nums? values
+
+      j += 3
+    end
+    i += 3
+    j = 0
+  end
+
+  true
+end
+
+def uniq_nums?(arr)
+  arr = arr.filter { |num| num != '.' }
+  arr.length == arr.uniq.length
+end
+
+board =
+  [%w[. . . . . . 5 . .],
+   %w[. . . . . . . . .],
+   %w[. . . . . . . . .],
+   %w[9 3 . . 2 . 4 . .],
+   %w[. . 7 . . . 3 . .],
+   %w[. . . . . . . . .],
+   %w[. . . 3 4 . . . .],
+   %w[. . . . . 3 . . .],
+   %w[. . . . . 5 2 . .]]
+
+p is_valid_sudoku board
