@@ -1,7 +1,8 @@
 # letscode
 
-Competitive programming solutions from leetcode.
+Competitive programming solutions for leetcode problems listed at http://neetcode.io
 
+## Array and Hashing
 | Problem                                                                                          | Solution                                                                                                          |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                     | [Code](https://github.com/sameer1612/letscode/blob/main/codes/arrays_and_hashing/contains-duplicate.rb)           |
