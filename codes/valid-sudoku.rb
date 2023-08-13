@@ -11,8 +11,8 @@ def is_valid_sudoku(board)
 
   while i < 9
     while j < 9
-      values = [(0..2).map { |x| (0..2).map { |y| board[i + x][j + y] } }].flatten
-      return false unless uniq_nums? values
+      block_values = [(0..2).map { |x| (0..2).map { |y| board[i + x][j + y] } }].flatten
+      return false unless uniq_nums? block_values
 
       j += 3
     end
