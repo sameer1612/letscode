@@ -14,4 +14,4 @@ def group_anagrams(strs)
   anagrams.values
 end
 
-p group_anagrams %w[eat tea tan ate nat bat]
+p group_anagrams %w[eat tea tan ate nat bat] # [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]

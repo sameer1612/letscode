@@ -6,4 +6,4 @@ def contains_duplicate(nums)
   nums != nums.uniq
 end
 
-p contains_duplicate [1, 2, 1]
+p contains_duplicate [1, 2, 1] # true

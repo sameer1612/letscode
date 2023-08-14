@@ -16,8 +16,8 @@ end
 
 source = %w[we say _ yes]
 code = encode(source)
-p 'Source: ', source
+p 'Source: ', source # ["we", "say", "_", "yes"]
 puts ''
-p 'Encoded: ', code
+p 'Encoded: ', code # "119_101#115_97_121#95#121_101_115"
 puts ''
-p 'Decoded: ', decode(code)
+p 'Decoded: ', decode(code) # ["we", "say", "_", "yes"]

@@ -9,4 +9,4 @@ def is_anagram(str1, str2)
   str1.chars.tally == str2.chars.tally
 end
 
-p is_anagram('aba', 'aab')
+p is_anagram('aba', 'aab') # true

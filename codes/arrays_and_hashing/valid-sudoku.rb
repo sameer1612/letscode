@@ -52,4 +52,4 @@ board =
    %w[. . . . . 3 . . .],
    %w[. . . . . 5 2 . .]]
 
-p is_valid_sudoku board
+p is_valid_sudoku board  # false

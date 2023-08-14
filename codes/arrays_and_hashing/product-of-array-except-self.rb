@@ -20,4 +20,4 @@ def product_except_self(nums)
   (0...nums.length).map { |i| left_prod[i] * right_prod[i] }
 end
 
-p product_except_self [-1, 1, 0, -3, 3]
+p product_except_self [-1, 1, 0, -3, 3] # [0, 0, 9, 0, 0]

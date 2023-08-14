@@ -7,4 +7,4 @@ def is_palindrome(s)
   true
 end
 
-p is_palindrome('A man, a plan, a canal: Panama')
+p is_palindrome('A man, a plan, a canal: Panama') # true
