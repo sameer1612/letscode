@@ -1,6 +1,6 @@
 # LetsCode
 
-Competitive programming solutions for leetcode problems listed at (NeetCode)[http://neetcode.io]
+Competitive programming solutions for leetcode problems listed at [NeetCode](http://neetcode.io)
 
 ## Array and Hashing
 
