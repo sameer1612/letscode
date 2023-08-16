@@ -2,6 +2,8 @@
 
 Competitive programming solutions for leetcode problems listed at [NeetCode](http://neetcode.io)
 
+[Analysis tips here](https://docs.google.com/spreadsheets/d/1gPybKvlFiaeBnG4FVrBNf9Cr9YvTXajOWDdjLqrNk9s/edit?usp=sharing)
+
 ## Array and Hashing
 
 | Problem                                                                                     | Solution                                                                                                          |
