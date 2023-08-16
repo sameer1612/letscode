@@ -26,3 +26,10 @@ Competitive programming solutions for leetcode problems listed at [NeetCode](htt
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Code](https://github.com/sameer1612/letscode/blob/main/codes/two_pointers/two-sum-ii-input-array-is-sorted.rb) |
 | [3 Sum](https://leetcode.com/problems/3sum/)                                                          | [Code](https://github.com/sameer1612/letscode/blob/main/codes/two_pointers/3sum.rb)                             |
 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                 | [Code](https://github.com/sameer1612/letscode/blob/main/codes/two_pointers/container-with-most-water.rb)        |
+| [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                             | [Code](https://github.com/sameer1612/letscode/blob/main/codes/two_pointers/trapping-rain-water.rb)              |
+
+## Stack
+
+| Problem                                                               | Solution                                                                                  |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/valid-parentheses.rb) |
