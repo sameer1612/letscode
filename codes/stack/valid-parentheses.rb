@@ -18,4 +18,4 @@ def is_valid(s = '')
   stack.empty?
 end
 
-p is_valid '()[]{}'
+p is_valid '()[]{}' # true
