@@ -30,8 +30,10 @@ Competitive programming solutions for leetcode problems listed at [NeetCode](htt
 
 ## Stack
 
-| Problem                                                               | Solution                                                                                  |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/valid-parentheses.rb) |
-| [Min Stack](https://leetcode.com/problems/min-stack/)                 | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/min-stack.rb)         |
+| Problem                                                                                             | Solution                                                                                                 |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)                               | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/valid-parentheses.rb)                |
+| [Min Stack](https://leetcode.com/problems/min-stack/)                                               | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/min-stack.rb)                        |
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/evaluate-reverse-polish-notation.rb) |
+| [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                         | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/generate-parentheses.rb)             |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                             | [Code](https://github.com/sameer1612/letscode/blob/main/codes/stack/daily-temperatures.rb)               |
